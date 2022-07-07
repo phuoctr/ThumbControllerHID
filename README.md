@@ -11,14 +11,14 @@ In this version, the Thumb-mounted controller uses Adafruit CircuitPython librar
 
 - 2* 10,000Ohms resistors. The resistors can be bought easily from the internet.
 - 3.3V Li-Po battery. For this controller, a 25mAH battery is soldered on the board but it can also be powered by the USB-C port but keep it in mind that because the power consumption is not very significant so some battery banks will only work for few second before it stop powering the controller.
-- A housing for the board: this housing is based on the board holder from Adafruit and a thumb cover to mount the controller on. The stl file for this housing can be found in this repo. This housing is modified from the [Adafruit Feather case](https://www.thingiverse.com/thing:1367270/files).
-- A housing for the battery: a wrist band for mounting the battery. The stl file for this band can be found in this repo.
+- A housing for the components: this housing should be printed with TPU for better fitting. The stl file for this housing can be found in this repo.
+
 
 ## Force Sensitive Resistors
 
 Force sensitive resistors play an important role on this controller for touch recognition including swiping and pressing. To use the force sensors, we need to make a voltage divider circuit as the figure below, a 3V power is connect to one pin on each force sensor, and on the other pin the analog input and ground is connected.
 
-<img width="641" alt="image" src="https://user-images.githubusercontent.com/46408299/177759130-2bbc4c99-cab1-41ac-b37c-bf04f063c9cb.png">
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/46408299/177761100-f0ee7b94-2d76-4f06-a61f-bbc0848b6b67.png">
 
 ## Arduino program
 
