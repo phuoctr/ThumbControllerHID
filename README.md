@@ -18,14 +18,15 @@ In this version, the Thumb-mounted controller uses Adafruit CircuitPython librar
 
 Force sensitive resistors play an important role on this controller for touch recognition including swiping and pressing. To use the force sensors, we need to make a voltage divider circuit as the figure below, a 3V power is connect to one pin on each force sensor, and on the other pin the analog input and ground is connected.
 
-<img width="694" alt="image" src="https://user-images.githubusercontent.com/46408299/158440514-24e7ef20-33b0-4343-98be-111f3e64b7fb.png">
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/46408299/177759130-2bbc4c99-cab1-41ac-b37c-bf04f063c9cb.png">
 
 ## Arduino program
 
-To program the Adafruit Feather Sense board, you need to [set-up CircuitPython on the Seeed board here](https://wiki.seeedstudio.com/XIAO-BLE_CircutPython/) and use MuEditor with adafruit_ble, adafruit_lsm6ds libraries imported, the documents for these libraries can be found [lsm6dsox](https://docs.circuitpython.org/projects/lsm6dsox/en/latest/api.html) and [](). 
+To program the Adafruit Feather Sense board, you need to [set-up CircuitPython on the Seeed board here](https://wiki.seeedstudio.com/XIAO-BLE_CircutPython/) and use MuEditor with adafruit_ble, adafruit_lsm6ds libraries imported, the documents for these libraries can be found [lsm6dsox](https://docs.circuitpython.org/projects/lsm6dsox/en/latest/api.html) and [adafruit_ble](https://docs.circuitpython.org/projects/ble/en/latest/). 
 
-The housing comprises of two parts, one for holding the Feather Sense board and the other for mounting user’s thumb, under the thumb mount, the force sensitive parts of two force sensitive resistors are stiched as illustrated in the figure below:
+The housing comprises of two parts, one for holding the Xiao BLE Sense board and the other for mounting user’s thumb, under the thumb mount, the force sensitive parts of two force sensitive resistors are stiched as illustrated in the figure below:
 
+<img width="1015" alt="image" src="https://user-images.githubusercontent.com/46408299/177760280-9ac10604-1062-4f7e-9aa3-c964e360e409.png">
 
 
 The controller can be powered either by connecting to a computer or using an external battery, a battery wristband is designed for mounting the battery.
@@ -38,4 +39,4 @@ At the moment, this controller supports following gestures, in future version of
 - Quick press
 - Long press
 
-A working demo for this controller can be found [here](https://phuoctrinh.com/ar-input-prototype), in this demo an AR Unity application for iPad is developed which communicate with the XR controller over BLE.
+A working demo for this controller can be found [here](https://soundxvision.io/lets-play-2048), in this demo, with the HID BLE profile uploaded to the board, I can use the thumb mounted controller for playing 2048.
