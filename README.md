@@ -11,7 +11,7 @@ In this version, the Thumb-mounted controller uses Adafruit CircuitPython librar
 
 - 2* 10,000Ohms resistors. The resistors can be bought easily from the internet.
 - 3.3V Li-Po battery. For this controller, a 25mAH battery is soldered on the board but it can also be powered by the USB-C port but keep it in mind that because the power consumption is not very significant so some battery banks will only work for few second before it stop powering the controller.
-- A housing for the components: this housing should be printed with TPU for better fitting. The stl file for this housing can be found in this repo.
+- A housing for the components: this housing should be printed with TPU filament for better fitting. The stl file for this housing can be found in this repo.
 
 
 ## Force Sensitive Resistors
