@@ -20,7 +20,7 @@ Force sensitive resistors play an important role on this controller for touch re
 
 <img width="845" alt="image" src="https://user-images.githubusercontent.com/46408299/177761100-f0ee7b94-2d76-4f06-a61f-bbc0848b6b67.png">
 
-## Arduino program
+## The program
 
 To program the Adafruit Feather Sense board, you need to [set-up CircuitPython on the Seeed board here](https://wiki.seeedstudio.com/XIAO-BLE_CircutPython/) and use MuEditor with adafruit_ble, adafruit_lsm6ds libraries imported, the documents for these libraries can be found [lsm6dsox](https://docs.circuitpython.org/projects/lsm6dsox/en/latest/api.html) and [adafruit_ble](https://docs.circuitpython.org/projects/ble/en/latest/). 
 
