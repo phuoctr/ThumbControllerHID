@@ -40,3 +40,5 @@ At the moment, this controller supports following gestures, in future version of
 - Long press
 
 A working demo for this controller can be found [here](https://soundxvision.io/lets-play-2048), in this demo, with the HID BLE profile uploaded to the board, I can use the thumb mounted controller for playing 2048.
+
+The origin of this device can be traceback to [my bachelor thesis at VAMK](https://www.theseus.fi/handle/10024/744024)
