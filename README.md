@@ -4,7 +4,6 @@ This thumb-mounted controller is an input device for use in extended reality (XR
 In this version, the Thumb-mounted controller uses Adafruit CircuitPython libraries for creating a BLE keyboard profile
 
 ## Materials
----
 ### Seeed Xiao BLE Sense
 This is a BLE development board which comes with a built-in accelerator and gyroscope. The Xiao BLE Sense can be found on the [SEEED website](https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html).
 
@@ -22,7 +21,6 @@ For this controller, a 3.3V 25mAH battery is soldered on the board. For a more a
 This housing should be printed with [TPU filament](https://www.amazon.com/NinjaTek-3DNF01117505-NinjaFlex-Filament-Midnight/dp/B078JGZRCK/ref=sr_1_19?crid=1TTAU3LOV2P8C&keywords=tpu+filament&qid=1657919414&sprefix=tpu%2Caps%2C93&sr=8-19) (link is an example only) for better fitting. The `.stl` file for this housing can be found [here](Housing.stl).
 
 ## Controller Architecture
----
 FSRs play an important role on this controller for touch recognition (i.e. swiping and pressing). To use the force sensors, we need to make a voltage divider circuit as shown in the figure below. 
 
 <figure>
@@ -34,7 +32,6 @@ FSRs play an important role on this controller for touch recognition (i.e. swipi
 </figure>
 
 ## Software Setup
----
 To program the Adafruit Feather Sense board, a few setup steps are needed first.
 1. [Set up CircuitPython on the Seeed board](https://wiki.seeedstudio.com/XIAO-BLE_CircutPython/)
 2. Import `adafruit_ble` and `adafruit_lsm6ds` libraries. The documentation for these libraries can be found [here](https://docs.circuitpython.org/projects/ble/en/latest/) and [here](https://docs.circuitpython.org/projects/lsm6dsox/en/latest/api.html) respectively. The `adafruit_ble` library is used to create the BLE keyboard profile. The `adafruit_lsm6ds` library is used to create the accelerometer and gyroscope. To install the libraries, run the following command in a terminal:
@@ -44,7 +41,6 @@ pip3 install adafruit-circuitpython-ble adafruit-circuitpython-lsm6ds
 > Note: A virtual environment is recommended for this setup. You can create one easily by following this [guide](https://realpython.com/python-virtual-environments-a-primer/#create-it).
 
 ## Hardware Details
----
 The housing is comprised of two parts, one for holding the Xiao BLE Sense board and the other for mounting the user’s thumb. Under the thumb mount, the force sensitive pads of the two FSRs are stiched as illustrated in the figure below:
 
 <figure>
@@ -56,7 +52,6 @@ The housing is comprised of two parts, one for holding the Xiao BLE Sense board 
 </figure>
 
 ## Gestures
----
 At the moment, this controller supports the following gestures:
 - Swiping left/right
 - Swiping up/down
@@ -66,10 +61,8 @@ At the moment, this controller supports the following gestures:
 *More gestures will be added in the future.*
 
 ## Demo
----
 A working demo for this controller can be found [here](https://soundxvision.io/lets-play-2048). In this demo, with the HID BLE profile uploaded to the board, I can use the thumb mounted controller for playing 2048.
 
 ## Contributions
----
 This device was designed and developed by [SoundxVision](https://soundxvision.io) with @phuoctr's [thesis at VAMK](https://www.theseus.fi/handle/10024/744024) as a basis for the concept.
 
