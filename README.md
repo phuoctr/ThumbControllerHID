@@ -14,7 +14,7 @@ Two 30g minimum sensitivity resistors are recommended for better gesture recogni
 Two 10,000Ω resistors are required for the controller to function properly. Wattage is not a concern for this device as the board has relatively low power consumption. The resistors can be purchased online fairly easily. However, for beginners, [this guide](https://wiraelectrical.com/10k-ohm-resistor-color-code/) shows the color code for the resistors.
 
 ### Li-Po Battery
-For this controller, a 3.3V 25mAH battery is soldered on the board. For a more advanced setup, the controller can also be powered by a USB-C port.
+For this controller, a 3.3V 25mAH battery is soldered on the board. For a more advanced setup, the controller can also be powered by a USB-C port. Without it, however, the battery will last for ~2 hours before it needs to be replaced. So it is up to the user's discretion to decide whether to use the USB-C port or the 25mAH battery.
 > Note: The power consumption is not very significant, so some battery banks will only work for a few seconds before the controller loses power.
 
 ### 3D Printed Housing
@@ -50,6 +50,8 @@ The housing is comprised of two parts, one for holding the Xiao BLE Sense board 
 <figcaption align="center"><b>The controller can be powered either by connecting to a computer or using an external battery. A battery wristband is designed for mounting the battery to the thumb mount.</b></figcaption>
 
 </figure>
+
+*See the [3D Printed Housing](#3d-printed-housing) section for more details on the housing.*
 
 ## Gestures
 At the moment, this controller supports the following gestures:
