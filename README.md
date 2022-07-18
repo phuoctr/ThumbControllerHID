@@ -64,5 +64,10 @@ At the moment, this controller supports the following gestures:
 A working demo for this controller can be found [here](https://soundxvision.io/lets-play-2048). In this demo, with the HID BLE profile uploaded to the board, I can use the thumb mounted controller for playing 2048.
 
 ## Contributions
-This device was designed and developed by [SoundxVision](https://soundxvision.io) with @phuoctr's [thesis at VAMK](https://www.theseus.fi/handle/10024/744024) as a basis for the concept.
+This device was designed and developed by [SoundxVision](https://soundxvision.io) with this [thesis at VAMK](https://www.theseus.fi/handle/10024/744024) by [@phuoctr](https://github.com/phuoctr)  as a basis for the concept.
 
+We would like to thank all of the contributors to this project.
+
+<a href="https://github.com/phuoctr/ThumbControllerHID/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=phuoctr/ThumbControllerHID" />
+</a>
